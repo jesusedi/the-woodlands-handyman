@@ -23,8 +23,8 @@ export const hero = {
     "Proudly serving Cochran's Crossing, Panther Creek, Sterling Ridge, Alden Bridge, and beyond.",
   estimate: "Get Your Free Estimate",
   call: "Call Now",
-  image: "/images/deck-stain.jpg",
-  imageAlt: "Handyman working on a home project",
+  image: "/images/deck-repair.jpg",
+  imageAlt: "Wooden deck repair and stain in The Woodlands",
 } as const;
 
 export const about = {
@@ -34,8 +34,6 @@ export const about = {
     "Based right here in The Woodlands, TX, we provide fast, affordable, and professional handyman and home improvement services. Whether you need a ceiling fan replaced, your fence repaired, or your deck cleaned and stained, our experienced team is here to help.",
     "We take pride in quality workmanship, honest pricing, and friendly customer service. No job is too small — and every home deserves professional care.",
   ],
-  image: "/images/handyman.jpg",
-  imageAlt: "Professional handyman service in The Woodlands",
   satisfaction: "100% Satisfaction",
 } as const;
 
@@ -55,8 +53,8 @@ export const services = [
       "door hardware changes",
       "faucet installation",
     ],
-    image: "/images/ceiling-fan.jpg",
-    imageAlt: "General Handyman Work",
+    image: null,
+    imageAlt: null,
   },
   {
     id: "power-washing",

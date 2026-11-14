@@ -10,9 +10,9 @@ export function Hero() {
         width={1600}
         height={1066}
         fetchPriority="high"
-        className="absolute inset-0 h-full w-full object-cover object-[68%_center]"
+        className="absolute inset-0 h-full w-full object-cover object-[center_40%]"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-pine-deep via-pine-deep/80 to-pine-deep/35 md:bg-gradient-to-r md:from-pine-deep md:via-pine-deep/80 md:to-pine-deep/15" />
+      <div className="absolute inset-0 bg-gradient-to-t from-pine-deep via-pine-deep/70 to-pine-deep/40 md:bg-gradient-to-r md:from-pine-deep md:via-pine-deep/80 md:to-pine-deep/15" />
       <div className="relative mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-end px-5 pb-28 pt-24 md:justify-center md:pb-16">
         <p className="text-sm font-medium tracking-[0.16em] text-sand uppercase">
           The Woodlands, TX 77380
